@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: tt;
+  src: url("./aften_screen.woff");
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  background-color: #9D73F7;
+  font-family: tt;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#333]">
+    <div class="w-full h-full text-white">
+      <canvas id="canvas" class="webgl"></canvas>
+      <div
+        class="nav w-full absolute top-0 flex justify-between items-center p-[1.8rem] text-[1.1rem]"
+      >
+        <a class="nav-link" href="/">Blobmixer</a>
+        <p class="flex gap-3 items-center">
+          Try in VR
+          <span
+            ><svg
+              width="29"
+              height="13"
+              viewBox="0 0 29 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="hover:fill-white duration-1000 ease-leaner"
+            >
+              <path
+                class="VRButton_hmd__P7+Il"
+                d="M25.9057 2.63583L25.9056 2.63582V2.64802V9.91164C25.9056 11.0668 25.0463 11.9366 24.1227 11.9366H18.5294H18.4948C17.7701 11.9366 17.1 11.5083 16.7255 10.7894C16.7253 10.7889 16.725 10.7883 16.7247 10.7878L15.8971 9.16711C15.3047 7.9859 13.6882 7.92735 13.0411 9.11756L12.1776 10.6719C11.7374 11.4643 10.9615 11.9366 10.1589 11.9366H4.87685C3.95326 11.9366 3.09399 11.0668 3.09399 9.91164V2.64802C3.09399 1.48769 3.92332 0.623047 4.87685 0.623047H24.1573C25.0862 0.623047 25.9344 1.46183 25.9057 2.63583Z"
+                stroke="white"
+              ></path>
+              <path
+                d="M27.5471 2.61353V7.90559L28.9998 7.5943V2.95941L27.5471 2.61353Z"
+                fill="white"
+              ></path>
+              <path
+                d="M0 7.55967L1.45272 7.87096V2.64807L0 2.95937V7.55967Z"
+                fill="white"
+              ></path></svg
+          ></span>
+        </p>
+        <a class="nav-link" href="/about">About</a>
+      </div>
+      <div
+        class="absolute w-full bottom-1 p-[1.4rem] flex justify-between items-center text-[1.1rem]"
+      >
+        <p class="ml-2">NFT Collaction</p>
+        <div class="w-20 h-[1px] bg-white"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/Three.js"></script>
+  </body>
+</html>
